@@ -1,13 +1,19 @@
 import { Navbar } from '@/components/navigation/Navbar';
-import { Hero } from '@/components/sections/Hero';
 import { About } from '@/components/sections/About';
-import { TechStack } from '@/components/sections/TechStack';
-import { FeaturedProjects } from '@/components/sections/FeaturedProjects';
-import { ArchitectureGrid } from '@/components/sections/ArchitectureGrid';
-import { ExperienceTimeline } from '@/components/sections/ExperienceTimeline';
-import { Education } from '@/components/sections/Education';
 import { ContactSection } from '@/components/sections/ContactSection';
-import { Footer } from '@/components/sections/Footer';
+import { Education } from '@/components/sections/Education';
+import { FeaturedProjects } from '@/components/sections/FeaturedProjects';
+import { Hero } from '@/components/sections/Hero';
+import { TechStack } from '@/components/sections/TechStack';
+// import { Hero } from '@/components/sections/Hero';
+// import { About } from '@/components/sections/About';
+// import { TechStack } from '@/components/sections/TechStack';
+// import { FeaturedProjects } from '@/components/sections/FeaturedProjects';
+// import { ArchitectureGrid } from '@/components/sections/ArchitectureGrid';
+// import { ExperienceTimeline } from '@/components/sections/ExperienceTimeline';
+// import { Education } from '@/components/sections/Education';
+// import { ContactSection } from '@/components/sections/ContactSection';
+// import { Footer } from '@/components/sections/Footer';
 
 export default function Home() {
   return (
@@ -22,13 +28,13 @@ export default function Home() {
         <About />
         <TechStack />
         <FeaturedProjects />
-        <ArchitectureGrid />
-        <ExperienceTimeline />
+        {/* <ArchitectureGrid /> */}
+        {/* <ExperienceTimeline /> */}
         <Education />
         <ContactSection />
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
